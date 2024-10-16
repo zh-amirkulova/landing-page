@@ -1,0 +1,338 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+/* dark-content */
+
+.dark-modal {
+    display: flex;
+    flex-direction: column ;
+    background-color: #1F2937;
+    padding: 0px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+} 
+
+.dark-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.content-button {
+    width: 100px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+/* white */
+
+.white-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937
+}
+
+.info-header {
+    padding: 50px;
+}
+
+.containers {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.square {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-button {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.square-text {
+    text-align: center;
+    width: 150px;
+}
+
+/* quote-modal */
+
+.quote-modal {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thonder {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+/* blue-modal */
+
+.blue-modal {
+    border: 150px solid white;
+}
+
+.blue {
+    display: flex;
+    gap: 100px;
+    background-color: #3882F6;
+    padding: 50px;
+    color: #f9faf8;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button {
+    width: 100px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Roboto, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    margin: 0px 200px;    
+}
+
+.dark-modal {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+.header-logo { 
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a,
+.content-text {
+    font-size: 18px;
+    color: #c6c4c4;
+
+}
+
+.content{
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+}
+
+.continue {
+    background: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+
+.white-modal {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+.containers {
+    display: flex;
+
+}
+
+
+.square-button {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    background: #F9FAF8;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.square-text {
+    width: 150px;
+}
+
+
+.quote {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 220px;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family:  Light Italic;
+    color: #1F2937;
+}
+
+.thonder {
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blue-modal {
+    border: 100px solid #F9FAF8;
+    background-color: #3882F6 ;
+    display: flex;
+    padding: 50px;
+}
+
+ */
